@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: "sans-serif";
+    background: linear-gradient(120deg,#130f40,#4834d4,#8344ad);
+    height: 100vh;
+}
+img {
+    max-width: 100%;
+
+}
+.player {
+    background: #000;
+    width: 450px;
+    height: 730px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+     transform: translate(-50%,-50%);
+    color: #ff012f;
+    border-radius: 5px;
+    box-shadow: 1px 1px 30px #111, -1px -1px 30px #111111;
+    overflow: hidden;
+}
+.container {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+}
+.icons a {
+    color: #ff012f;
+    font-size: 1.2em;
+    transition: all 0.3s;
+}
+.icons a:hover {
+    color: #fff;
+
+}
+.img {
+    box-shadow: 1px 1px 15px #ff012f, -1px -1px 15px #ff012f;
+    width:60%;
+    border-radius: 50%;
+    margin: 30px auto;
+    transition: all 0.3s;
+}
+.img img {
+    border-radius: 50%;
+    cursor: pointer;
+}
+.img:hover {
+    box-shadow: 1px 1px 25px #ff012f, -1px -1px 25px #ff012f;
+    transform: scale(1.03);
+}
+.title {
+    text-align: center;
+    margin: 10px 0;
+
+}
+.title h1 {
+    font-size: 2em;
+    margin: 0 0 10px 0;
+
+}
+.title p {
+    color:#ffffff;
+    font-size: 1.1em;
+
+}
+.time {
+    text-align: center;
+    margin: 15px 0 ;
+}
+.seek {
+    width: 100%;
+    height: 5px;
+    background:#ff012f;
+    border-radius: 50px;
+
+}
+.seek .fill {
+    width: 20%;
+    height: 5px;
+    background: #fff;
+    border-radius: 50px;
+
+}
+.audio-btns {
+    background: #ff012f;
+    margin: 40px auto;
+    height: 350px;
+    width: 100%;
+    border-radius: 48%;
+    text-align: center;
+
+}
+
+.play-btns {
+    padding: 45px 0 30px;
+
+}
+.play-pause:hover {
+    background: #ff012f;
+    color: white;
+}
+.play-btns a {
+    color: white;
+    margin: 0 30px ;
+    font-size: 1.5em;
+    transition: all 0.5s;
+
+}
+.play-btns .play-pause {
+    background: #ff0634;
+    padding: 30px 30px 30px 33px;
+    border-radius: 50%;
+
+}
+
+.repit-btns {
+    margin: 30px 0 ;
+}
+.repit-btns a {
+    color: white;
+    margin: 0 40px;
+    font-size: 1.3em;
+
+}
+.repit-btns button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #ff012f;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 1px 1px 25px #ff012f, -1px -1px 25px #ff012f;
+    transition: all 0.3s;
+}
+.repit-btns button:hover {
+    background: #ff012f;
+    color: white;
+
+
+}
